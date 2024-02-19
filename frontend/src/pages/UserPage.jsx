@@ -26,7 +26,6 @@ const UserPage = () => {
           },
         });
         const data = await res.json();
-        console.log(data);
         setPosts(data);
       } catch (error) {
         showToast("Error", error.message, "error");

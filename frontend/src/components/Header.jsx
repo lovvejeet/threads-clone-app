@@ -6,7 +6,7 @@ import { Link as RouterLink } from "react-router-dom";
 import { FiLogOut } from "react-icons/fi";
 import useLogout from "../hooks/useLogout";
 import { BsFillChatQuoteFill } from "react-icons/bs";
-import { MdOutlineSettings } from "react-icons/md";
+// import { MdOutlineSettings } from "react-icons/md";
 import authScreenAtom from "../../atoms/authAtom";
 import userAtom from "../../atoms/userAtoms";
 
@@ -49,9 +49,9 @@ const Header = () => {
           <Link as={RouterLink} to={`/chat`}>
             <BsFillChatQuoteFill size={20} />
           </Link>
-          <Link as={RouterLink} to={`/settings`}>
+          {/* <Link as={RouterLink} to={`/settings`}>
             <MdOutlineSettings size={20} />
-          </Link>
+          </Link> */}
           <Button size={"xs"} onClick={logout}>
             <FiLogOut size={20} />
           </Button>
