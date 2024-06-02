@@ -9,9 +9,9 @@ import AuthPage from "./pages/AuthPage";
 import { useRecoilValue } from "recoil";
 import userAtom from "../atoms/userAtoms";
 import LogoutButton from "./components/LogoutButton";
-import UpdateProfilePage from "./pages/updateProfilePage";
 import CreatePost from "./components/CreatePost";
 import ChatPage from "./pages/ChatPage";
+import UpdateProfilePage from "./pages/UpdateProfilePage";
 
 function App() {
   const user = useRecoilValue(userAtom);
