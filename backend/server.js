@@ -7,7 +7,7 @@ import postRoutes from "./routes/postRoutes.js";
 import messageRoutes from "./routes/messageRoutes.js";
 import { v2 as cloudinary } from "cloudinary";
 import { app, server } from "./socket/socket.js";
-import connectDB from "./db/connectDB";
+import connectDB from "./db/connectDB.js";
 
 dotenv.config();
 connectDB();
